@@ -13,4 +13,7 @@ public class TextMe {
     public String getManufacturer(){
         return Build.MANUFACTURER.toString();
     }
+    public String getModel(){
+        return Build.MODEL.toString();
+    }
 }
